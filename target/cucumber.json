@@ -1,0 +1,128 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5928843700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LogingStepsDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "1 User should be abel to loing valid account",
+        "description": "",
+        "id": "techfios-billing-functionality-validation;1-user-should-be-abel-to-loing-valid-account",
+        "after": [
+          {
+            "result": {
+              "duration": 4764914400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LogingStepsDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 154717900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on  the TechFios loign page",
+            "match": {
+              "location": "LogingStepsDefinition.user_is_on_the_techfios_loign_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175344100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LogingStepsDefinition.user_enters_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145984000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "LogingStepsDefinition.user_enters_password_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2388913400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks signin button",
+            "match": {
+              "location": "LogingStepsDefinition.user_clicks_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 688526800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should land on the dashbord page",
+            "match": {
+              "location": "LogingStepsDefinition.user_should_land_on_the_dashbord_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@logScenario1"
+          }
+        ]
+      }
+    ],
+    "name": "TechFios Billing Functionality validation",
+    "description": "",
+    "id": "techfios-billing-functionality-validation",
+    "keyword": "Feature",
+    "uri": "features/LogingOther3.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LogingOtherFeature"
+      }
+    ]
+  }
+]
